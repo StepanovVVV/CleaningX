@@ -1,0 +1,485 @@
+@media (max-width: 1199.98px) {
+    [class*="__container"] {
+        max-width: 970px;
+    }
+
+    .padding-top, .cover {
+        padding-top: 18rem;
+    }
+    
+    .padding-bottom,
+    .cover__container,
+    .different__container {
+        padding-bottom: 18rem;
+    }
+
+/* ________________ header ______________ */
+    .header__container {
+        column-gap: 2.7rem;
+    }
+
+/* ______________________________ covid-19 _____________________________ */
+    .covid-19__info {
+        margin-right: 0;
+    }
+
+    .covid-19__img {
+        width: 40%;
+    }
+
+/* ______________________________ footer _____________________________ */
+    .footer__items {
+        grid-template-columns: repeat(2, minmax(28rem, 40.2rem));
+    }
+}
+
+@media (max-width: 990.98px) {
+    [class*="__container"] {
+        max-width: 750px;
+    }
+
+    .padding-top, .cover {
+        padding-top: 12rem;
+    }
+    
+    .padding-bottom,
+    .cover__container,
+    .different__container {
+        padding-bottom: 12rem;
+    }
+
+/* ________________ header ______________ */
+    .header {
+        padding: 1.2rem 0;
+    }
+
+    .header__links>li:last-child {
+        margin-left: 0;
+    }
+
+    .header__container {
+        column-gap: 1.5rem;
+    }
+
+    .header__links {
+        column-gap: 1.2rem;
+    }
+
+    .nav-box {
+        text-align: center;
+    }
+
+/* ______________________________ quality _____________________________ */
+    .quality__img {
+        opacity: .7;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        row-gap: 5rem;
+    }
+
+    .our-service__card {
+        max-width: 32rem;
+    }
+
+/* ______________________________ comparison _____________________________ */
+    .video-wrapper,
+    .video-container {
+        height: 40rem;
+    }
+
+/* ______________________________ take _____________________________ */
+    .take__card {
+        max-width: 33.8rem;
+    }
+
+/* ______________________________ covid-19 _____________________________ */
+    .covid-19__container {
+        padding-top: 5rem;
+        flex-direction: column-reverse;
+    }
+
+    .covid-19__img {
+        width: 100%;
+        margin-left: -3rem;
+    }
+
+/* ______________________________ different _____________________________ */
+    .different__container {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .different__call-us {
+        justify-content: center;
+    }
+
+    .different__info,
+    .different__text {
+        max-width: 100%;
+    }
+
+    .different__img {
+        margin: 0 auto;
+    }
+
+/* ______________________________ cover _____________________________ */
+    .cover__container {
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+
+/* ______________________________ articles _____________________________ */
+    .top-hat__btn {
+        flex-direction: column;
+    }
+
+    .items-box {
+        flex-direction: column;
+    }
+
+    .request__container {
+        flex-direction: column;
+    }
+
+/* ______________________________ footer _____________________________ */
+    .footer__copy-box {
+        flex-direction: column;
+        row-gap: 3rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 865px) {
+    .quality__box>p {
+        text-shadow: 1px 1px 5px white;
+    }
+}
+
+@media (max-width: 767.98px) {
+    [class*="__container"] {
+        max-width: none;
+    }
+
+    .padding-top, .cover {
+        padding-top: 8rem;
+    }
+    
+    .padding-bottom,
+    .cover__container,
+    .different__container {
+        padding-bottom: 8rem;
+    }
+
+/* ________________ header ______________ */
+    .btn__cart {
+        margin: 0;
+        margin-right: 2.4rem;
+    }
+
+    .header-burger__btn {
+        display: block;
+        width: 3rem;
+        height: 3rem;
+        position: relative;
+    }
+
+    .header__link {
+        font-size: 2.8rem;
+    }
+
+    .header-burger__btn>span {
+        display: block;
+        width: 100%;
+        height: 0.25rem;
+        background-color: var(--color-5);
+        position: absolute;
+        transition: all .3s ease 0s;
+    }
+
+    .header-burger__btn>span:nth-child(1) {
+        top: 0;
+    }
+
+    .header-burger__btn>span:nth-child(2) {
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+    }
+
+    .header-burger__btn>span:nth-child(3) {
+        bottom: 0;
+    }
+
+    .header__display {
+        justify-content: flex-end;
+        column-gap: 4rem;
+    }
+
+    .header__menu {
+        position: fixed;
+        top: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: var(--color-1);
+        left: 0;
+        transition: all .3s ease 0s;
+        overflow-x: auto;
+    }
+
+    .header__links {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 2.2rem;
+        height: 100%;
+    }
+
+    .header__menu.active {
+        top: 0;
+    }
+
+    .header-burger__btn.active>span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .header-burger__btn.active>span:nth-child(1) {
+        top: 50%;
+        transform: translate(0,-50%) rotate(45deg);
+    }
+
+    .header-burger__btn.active>span:nth-child(3) {
+        top: 50%;
+        bottom: auto;
+        transform: translate(0,-50%) rotate(-45deg);
+    }
+
+/* ______________________________ quality _____________________________ */
+    .quality {
+        height: auto;
+    }
+
+    .quality__container {
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+
+    .quality__img {
+        position: static;
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+
+    .quality__box>p {
+        text-shadow: none;
+    }
+
+/* ______________________________ our-service _____________________________ */
+    .cards {
+        flex-direction: column;
+    }
+
+    .our-service__card {
+        max-width: 100%;
+    }
+
+/* ______________________________ comparison _____________________________ */
+    .comparison__icons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+/* ______________________________ take _____________________________ */
+    .take__cards {
+        align-items: center;
+    }
+
+    .take__top-hat {
+        flex-direction: column;
+    }
+
+    .take__title {
+        text-align: center;
+    }
+
+/* ______________________________ articles _____________________________ */
+    .items-box__img {
+        margin-top: 5rem;
+    }
+
+/* ______________________________ footer _____________________________ */
+    .footer__items {
+        grid-template-columns: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer__item h2 {
+        max-width: 100%;
+    }
+
+    .decor-box {
+        justify-content: center;
+    }
+
+    .nav-box,
+    .header__logo {
+        z-index: 1;
+    }
+}
+
+@media (max-width: 575px) {
+    html {
+        font-size: 50%;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+/* ________________ header ______________ */
+    .nav-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__logo {
+        flex: 0 0 14.5rem;
+    }
+
+    .header-btn {
+        padding: 1.2rem 1.2rem;
+    }
+
+    .btn__cart {
+        margin-right: 1.4rem;
+    }
+
+    .header__display {
+        column-gap: 1rem;
+    }
+
+/* ______________________________ quality _____________________________ */
+    .quality__call-us {
+        flex-direction: column-reverse;
+        row-gap: 3rem;
+    }
+
+    .quality__box>h1,
+    .quality__box>p {
+        text-align: center;
+    }
+
+/* ______________________________ our-service _____________________________ */
+    .our-service__container>p {
+        text-align: center;
+    }
+
+/* ______________________________ comparison _____________________________ */
+    .play-gif {
+        max-width: 10rem;
+        max-height: 10rem;
+    }
+
+    .play-gif>img {
+        width: 30%;
+    }
+
+    .video-wrapper,
+    .video-container {
+        height: 30rem;
+    }
+
+/* ______________________________ covid-19 _____________________________ */
+    .covid-19__info {
+        text-align: center;
+    }
+
+    .covid-19__call-us span {
+        text-align: left;
+    }
+
+/* ______________________________ cover _____________________________ */
+    .cover__lists {
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .cover__lists>ul>li+li {
+        max-width: 100%;
+    }
+
+/* ______________________________ different _____________________________ */
+    .different__box {
+        max-width: 100%;
+    }
+
+    .different__info {
+        text-align: center;
+    }
+
+    .achievements {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .form__boxs {
+        flex-direction: column;
+    }
+
+/* ______________________________ articles _____________________________ */
+    .item-box__info {
+        padding: 3.2rem 2.9rem;
+        margin: -6rem 1rem 0;
+    }
+
+    .item-box__info::after {
+        right: 2rem;
+        bottom: 2rem;
+    }
+
+/* ______________________________ request _____________________________ --> */
+    .request__form {
+        padding: 5.5rem 3.1rem;
+    }
+}
+
+@media (max-width: 479.98px) {
+/* ______________________________ our-service _____________________________ */
+    .btn-width,
+    .top-hat__btn {
+        width: 100%;
+    }
+
+    .our-service__btns {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 345px) {
+/* ________________ header ______________ */
+    .icon-mob {
+        display: block;
+        width: 30px;
+        margin: 0 auto;
+    }
+
+    .header-btn {
+        background-color: var(--color-3);
+        padding: 0.5rem 0.1rem;
+    }
+
+    .header-btn>span {
+        display: none;
+    }
+
+    .call-us-number>p {
+        font-size: 1.8rem;
+    }
+
+    .btn__cart {
+        font-size: 2rem;
+    }
+}
